@@ -2,7 +2,7 @@ import express from 'express'; // Importa il modulo Express
 import postsRouter from './routers/postsRouter.js'; // Importa il router per la gestione dei post
 import errorsHandler from './middlewares/errorsHandler.js';
 import notFound from './middlewares/notFound.js';
-import cors from 'cors'
+
 
 const app = express(); // Crea un'istanza dell'applicazione Express
 const port = 3000; // Definisce la porta su cui il server ascolterà
